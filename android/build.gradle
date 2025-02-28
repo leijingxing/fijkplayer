@@ -1,4 +1,5 @@
 package android
+//package android
 
 group 'com.befovy.fijkplayer'
 version '0.11.0'
@@ -8,10 +9,10 @@ apply plugin: 'com.android.library'
 android {
     namespace "com.befovy.fijkplayer" // 添加 namespace 声明
 
-    compileSdkVersion 34
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 24
+        minSdkVersion 26
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
