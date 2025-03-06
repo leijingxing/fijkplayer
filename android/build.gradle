@@ -1,4 +1,4 @@
-package android
+//package android
 
 group 'com.befovy.fijkplayer'
 version '0.11.2'
@@ -11,7 +11,7 @@ android {
     compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 26
+        minSdkVersion 24
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
